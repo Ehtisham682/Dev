@@ -1,0 +1,24 @@
+element- a complete thing which represent something on page.
+(aisa chez ho kuch bhi dekah deta hai web page me)
+like <p> its me</p>
+     | whole thing| is an element
+
+
+class- class ek attribute h which we can give to an element to identify and target that element.
+<p class="imp">its me</p>
+   |         |
+   in this if there are multiple <p> elements,
+   then we can specifically identify the above element with its class="one"
+
+use classes when we need to target many elements.
+use ID selector when we need to target specific element.
+
+&______; = reference character 
+&#_____; = decimal numeric reference (used for symbols and decimals characters)
+&#x____; = hexadecimal numeric reference (value followed by ASCII-hexdigit)
+
+<Meta> Tag = is used to give information about the page to the Browser, also user for SEO (Search Engine Optimization) by giving the webpage description.
+  Properties= og:title   <meta property="og:title" content="freeCodeCamp.org"/>
+              og:type    <meta property="og:type" content="website" />
+              og:image   <meta property="og:image" content="Image scource" />
+              og:url     <meta property="og:url" content="url_link" />

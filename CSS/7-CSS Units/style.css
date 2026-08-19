@@ -1,0 +1,30 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+}
+
+section {
+  background-color: violet;
+  width: 50vw ;
+  padding: 10vw;
+  margin: 10vw;
+  border: 1vw solid brown;
+  font-size: 2rem;
+  /* font-size: 4vw; */
+  /* width: 400px;
+  padding: 10%;
+  box-sizing: border-box;
+  font-size: 10px; */
+}
+
+.box {
+  background-color: chartreuse;
+  padding: 0.5em;
+  width: 5em;
+  font-size: 2rem;
+  /* box-sizing: border-box; */
+}

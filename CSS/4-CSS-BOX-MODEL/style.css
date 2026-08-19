@@ -1,0 +1,37 @@
+
+.one {
+  background-color: aquamarine;
+  width: 300px;
+  padding: 25px;
+  border: 50px darkgreen solid;
+  margin: 50px;
+  /* box-sizing: border-box; */
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  border: 5px solid hotpink;
+  border-radius: 50%;
+  overflow: hidden;
+ background-color: blueviolet;
+outline: 100px solid greenyellow;
+  /* box-sizing: border-box; */
+}
+
+img {
+    margin-left: -19px;
+    width: 118%;
+    height: 121%;
+    margin-top: -28px;
+    background-color: blue;
+}
+#grad1 {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right,aquamarine, violet);
+}
+
+body {
+    margin: 0px;
+}

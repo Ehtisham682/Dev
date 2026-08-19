@@ -1,0 +1,3 @@
+. = for class selector
+# = for id selector
+[ = for attribute selector

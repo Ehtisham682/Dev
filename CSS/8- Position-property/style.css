@@ -1,0 +1,36 @@
+div {
+    position: relative;
+    background-color: chartreuse;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+ul {
+    position: relative;
+    background-color: crimson;
+    top: 10px;
+}
+.css-element {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    left: 10px;
+    /* bottom: 10px; */
+}
+
+.js-element{
+    /* background-color: darkorange;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px; */
+}
+
+header {
+    position: sticky;
+    background-color: chocolate;
+    top: 0;
+}

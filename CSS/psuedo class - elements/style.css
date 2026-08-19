@@ -1,0 +1,41 @@
+/*
+  pseudo class
+*/
+/*
+article p:first-child {
+    font-style: italic;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+article p:last-child {
+    background-color: orange;
+}
+
+
+p:hover {
+    background-color: blue;
+}
+*/
+
+
+/*
+  pseudo elements
+*/
+
+article p::before {
+    content: "adding the data before the para with pseudo element";
+}
+
+article p::first-letter {
+    font-weight: bold;
+}
+
+article p::first-line {
+    font-style: italic;
+}
+
+p:hover {
+    text-decoration: underline;
+    color: rosybrown;
+}

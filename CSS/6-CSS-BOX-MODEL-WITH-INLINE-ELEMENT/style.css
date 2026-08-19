@@ -1,0 +1,25 @@
+body {
+    margin:0;
+}
+span {
+    background-color: red;
+    width: 60px;
+    height: 40px;
+    padding: 25px;
+    border: 10px solid pink;
+    margin: 30px;
+    display: inline-block;
+}
+
+img {
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+    padding: 100px;
+    border: 25px solid red;
+}
+
+iframe {
+    height: 400px;
+    width: 550px;
+}

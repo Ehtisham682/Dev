@@ -1,0 +1,31 @@
+/* class selector */
+/* .Web {
+  color: saddlebrown;
+} */
+
+/* .html {
+  color: red;
+} */
+
+/* pseudo class selector */
+h1:hover {
+  color: blueviolet;
+}
+
+li:first-child {
+  color: green;
+}
+
+/* id selector */
+#CSS {
+  color: yellow;
+}
+
+/* attribute selector */
+[Ehtisham="name"]:hover {
+  color: orange;
+}
+
+/* [class] {
+  font-size: 40px;
+} */

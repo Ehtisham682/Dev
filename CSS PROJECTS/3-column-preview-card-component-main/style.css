@@ -1,0 +1,64 @@
+body {
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+}
+
+h2 {
+   font-family: "Big Shoulders", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: hsl(0, 0%, 95%);
+
+}
+
+.main-box { 
+    padding: 1rem;
+}
+
+.box-container {
+    /* padding: 1rem; */
+    margin: 1rem;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    width: 800px;
+    /* margin-inline: auto; */
+    margin-top: auto;
+}
+
+.box-container a {
+    text-decoration: none;
+    border:2px solid white;
+    padding: 1em 2em;
+    border-radius: 2rem;
+    margin-top: auto;   
+}
+
+.Sedan {
+    background-color: hsl(31, 77%, 52%);
+    /* border-radius: 8px 8px 0px 0px; */
+    padding: 2rem;
+}
+
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    /* border-radius: 0px 0px 8px 8px; */
+    padding: 2rem;
+}
+

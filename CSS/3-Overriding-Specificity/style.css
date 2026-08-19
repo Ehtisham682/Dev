@@ -1,0 +1,32 @@
+li.html {
+  color: antiquewhite;
+  background-color: violet !important
+  ;
+}
+li#html.html {
+  color: magenta;
+  background-color: yellow;
+}
+
+#html {
+  background-color: darkgreen;
+}
+
+li {
+  color: antiquewhite;
+  background-color: green !important
+  ;
+}
+
+li {
+  background-color: hotpink;
+}
+
+.html {
+  background-color: blue;
+}
+
+#html#html#html {
+  color: red;
+  background-color: brown
+}

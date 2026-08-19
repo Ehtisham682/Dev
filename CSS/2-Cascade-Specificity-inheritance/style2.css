@@ -1,0 +1,12 @@
+body {
+    color: yellowgreen;
+}
+
+li {
+    font-size: 34px;
+    font-family: cursive;
+}
+
+[button] {
+    font-family: cursive;
+}
