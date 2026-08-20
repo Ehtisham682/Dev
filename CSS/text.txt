@@ -22,3 +22,5 @@ use ID selector when we need to target specific element.
               og:type    <meta property="og:type" content="website" />
               og:image   <meta property="og:image" content="Image scource" />
               og:url     <meta property="og:url" content="url_link" />
+
+% Height will only work when the parent element have absolute value.

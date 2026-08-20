@@ -1,0 +1,6 @@
+target attribute
+    _blank = opens the link in a new tab or window
+    _self = opens the link in current browsing  windows or tab
+    _parent = opens the link in the parent of the current context
+    _top = the link will always open in the full browser tab/window, even for nested embedded frames
+
