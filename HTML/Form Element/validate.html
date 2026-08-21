@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and input Valtidations</title>
+  </head>
+  <body>
+    <h1>Validations in Forms and Input</h1>
+    <div>
+      <form action="">
+        <label for="valid">Validation</label>
+        <!-- required attribute makes the input field mandatory to fill -->
+         <!-- type attribute specifies the type of input field -->
+        <input
+          required
+          type="email"
+          minlength="7"
+          maxlength="15"
+          id="valid"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
