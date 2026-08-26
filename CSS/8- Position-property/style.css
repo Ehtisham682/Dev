@@ -1,10 +1,7 @@
 div {
     position: relative;
     background-color: chartreuse;
-    top: 10px;
-    bottom: 10px;
-    right: 10px;
-    left: 10px;
+    inset: 25px; /*inset attribute gives the ability to set all four edges at once that is top, right, bottom and left. */
 }
 
 ul {
@@ -19,14 +16,15 @@ ul {
     right: 10px;
     left: 10px;
     /* bottom: 10px; */
+    /* position absolute takes the position from its relative position or viewport if it has none and both left and right position works at the same time*/
 }
 
 .js-element{
-    /* background-color: darkorange;
-    position: fixed;
+    background-color: darkorange;
+    /* position: fixed; */
     top: 10px;
-    left: 10px;
-    right: 10px; */
+    left: 10px; 
+    right: 10px;
 }
 
 header {

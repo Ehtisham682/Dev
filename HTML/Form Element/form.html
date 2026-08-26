@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Feedback Form</h1>
+        <p> thank you for staying with us. Please provide feedback on your recent stay.</p>
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name (required)</label>
+                <input required id="name" type="text" name="name" placeholder="e.g., John Doe">
+                <label for="email">Email address (required)</label>
+                <input required id="email" type="email" name="email" placeholder="example@email.com">
+                <label for="age">Age (optional)</label>
+                <input id="age" type="number" name="age">
+            </fieldset>
+            <fieldset>
+                <legend>was this your first time at our hotel?</legend>
+                <input type="radio" name="first_time" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="first_time" id="no" value="no">
+                <label for="no">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Why did you choose to stay at our hotel? (Check all that apply)</legend>
+                <input type="checkbox" name="reason" id="reason" value="social_media">
+                <label for="reason">Social Media Ads</label>
+                <input type="checkbox" name="reason" id="reason" value="personal_recommendation">
+                <label for="reason">Personal Recommendation</label>
+                <input type="checkbox" name="reason" id="reason" value="location">
+                <label for="reason">Location</label>
+                <input type="checkbox" name="reason" id="reason" value="reputation">
+                <label for="reason">Reputation</label>
+                <input type="checkbox" name="reason" id="reason" value="price">
+                <label for="reason">Price</label>
+            </fieldset>
+            <fieldset>
+                <legend>Rating</legend>
+                <label for="rating">How was the service</label>
+                <select name="rating" id="rating">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                    <option value="poor">Poor</option>
+                </select>
+                <label for="rating">How was the food</label>
+                <select name="rating" id="rating">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                    <option value="poor">Poor</option>
+                </select>
+            </fieldset>
+            <label for="comments">other Comments</label>
+            <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </header>
+</body>
+</html>

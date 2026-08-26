@@ -1,3 +1,18 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50% ,-50%);
+    background-color: rgb(255, 0, 0, 0.3);
+    /* transform:scale(2); */
+}
+
 main {
     position: relative;
     width: 600px;
@@ -29,6 +44,6 @@ main {
     background-color: blueviolet;
     transform: translate(-50% ,-50%) rotate(45deg) scale(1.4);
 }
-h1{
+h2{
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.562);
 }
