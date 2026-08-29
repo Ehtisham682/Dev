@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Salsa;
+}
+
+.latkan {
+  height: 200px;
+  margin-bottom: -150px;
+}
+
+.Main-section {
+  background-color: #f99501;
+  background-image: url(/Diwali/media/page1\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main-section p {
+  font-size: 42px;
+  max-width: 500px;
+}
+
+.para-one {
+  margin-left: 10rem;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  border-radius: 45px;
+  background-color: #fbd8a4;
+  padding-left: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+
+.section-divide {
+  border: none;
+  border-top: 5px solid #fbd8a4;
+  width: 40%;
+}
+
+.divider {
+  display: flex;
+}
+
+.second-section {
+  background-color: #f99501;
+  padding: 1em;
+}
+
+.line {
+  height: 3px;
+  width: 450px;
+  border: 1px solid #fbd8a4;
+  background-color: #fbd8a4;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #fbd8a4;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+
+.horizontal-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.second-main-section {
+  padding-inline: 1rem;
+}
+
+.diwali {
+  display: block;
+  margin-inline: auto;
+  max-width: 1010px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.text {
+  font-family: 'Style Script';
+  font-size: 4rem;
+  text-align: center;
+}
+
+.white-card {
+  background-color: white;
+  max-width: 850px;
+  padding: 2rem;
+  margin-inline: auto;
+  border-radius: 16px;
+}
+
+.white-card p {
+  font-size: 3rem;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.girl {
+  width: 100%;
+  max-width: 360px;
+  margin-left: -10rem;
+}
+
+.last-section {
+  padding-block: 0.1px;
+  background-color: #f99501;
+}
+
+
+.pic-card img {
+  width: 50%;
+  
+}   
+
+.pic-card {
+  max-width:1010px ;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  display:flex;
+  flex-shrink: 0;
+  margin-inline: auto;
+}
+
+.greet{
+    font-size: 1.5rem;
+}
+
+.thank p{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    font-size: 3rem;
+  }
+
+  .white-card p {
+    font-size: 2.2rem;
+  }
+
+  .girl {
+    width: 100%;
+    max-width: 310px;
+  }
+
+  .pic-card{
+    padding: 1rem;
+    max-width: 900px;
+  }
+
+  
+}
+
+@media (max-width: 840px) {
+  .latkan {
+    margin-bottom: 0;
+  }
+
+  .para-one {
+    margin-left: 1rem;
+  }
+
+  .first-light {
+    display: block;
+    margin-left: auto;
+  }
+  .second-light,
+  .music-des,
+  .rythm {
+    display: none;
+  }
+
+  .audio-container {
+    max-width: 400px;
+  }
+
+  .Main-section p {
+    font-size: 2rem;
+    max-width: 400px;
+  }
+
+  .first-light {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+
+  .white-card p {
+    font-size: 1.7rem;
+  }
+
+  .girl {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .pic-card{
+    padding: 1rem;
+    max-width: 700px;
+  }
+
+  .greet{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .Main-section p {
+    font-size: 1.5rem;
+    max-width: 350px;
+  }
+
+  .text {
+    font-size: 1.6rem;
+  }
+
+  .white-card p {
+    font-size: 1.3rem;
+  }
+
+  .girl {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .pic-card{
+    padding: 1rem;
+    max-width: 400px;
+  }
+
+  .greet{
+    font-size: 1rem;
+  }
+}

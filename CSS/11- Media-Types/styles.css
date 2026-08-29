@@ -1,0 +1,43 @@
+div {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 15px solid grey;
+}
+
+ /*media print's change only works when you print the webpage*/
+/* @media print{ 
+    div{
+        background-color: yellow;
+        print-color-adjust: exact;
+        border-color: red;
+    }
+} */
+
+
+/*media print's change works on the website itself not on the printed page and it can be overruled by cascade*/
+/* @media screen {  
+    div{
+        background-color: yellow;
+        print-color-adjust: exact;
+        border-color: red;
+    }
+} */
+
+
+/* @media (orientation: portrait) and (width <= 500px) {  
+    div{
+        background-color: yellow;
+        print-color-adjust: exact;
+        border-color: red;
+    }
+} */
+
+/* we will only use the below width and heith query syntax as above syntax is not supported by all broswers */
+@media (max-width: 500px) {  
+    div{
+        background-color: yellow;
+        print-color-adjust: exact;
+        border-color: red;
+    }
+}
