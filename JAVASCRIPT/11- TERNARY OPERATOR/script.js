@@ -3,6 +3,8 @@
 // const message=`${gender.toLocaleUpperCase() === 'M' ? 'He' : 'She'} is a college student`
 // console.log(message)
 
+const name="Ehti"
+const age=12
 const msg= null? 'Mohd' : "Ehtisham" ? "Ehti":0
 console.log(msg)
 // this is condition chain."Ehtisham" is in another ternary condition chain.
