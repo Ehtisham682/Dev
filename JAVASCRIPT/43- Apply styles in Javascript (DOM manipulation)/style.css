@@ -1,0 +1,20 @@
+h1 {
+	color: red;
+	background-color: aquamarine;
+}
+
+.my-link{
+    border:3px solid crimson;
+}
+
+.styling{
+    font-family: cursive;
+    color:lightcoral
+}
+
+.links {
+	color: green;
+	text-decoration: none;
+	font-weight: 900;
+	font-family: cursive;
+}
