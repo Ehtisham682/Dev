@@ -24,20 +24,19 @@ const h1 = document.querySelector("h1");
 // para.id ="pokemons" //adding id to new element
 // container.append(para)
 
-for (let i = 1; i <= 100; i++) {
-	const div = document.createElement("div");
-    div.classList.add("image-div")
+// for (let i = 1; i <= 1000; i++) {
+// 	const div = document.createElement("div");
+//     div.classList.add("image-div")
 
-	const image = document.createElement("img");
-	image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
+// 	const image = document.createElement("img");
+// 	image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
 
-	const para = document.createElement("p");
-	para.innerText = `${i}`;
+// 	const para = document.createElement("p");
+// 	para.innerText = `${i}`;
 
-	div.append(image,para);
-    container.append(div);
-	
-}
+// 	div.append(image,para);
+//     container.append(div);
+// }
 
 // let myHTML =  ``
 // for(let i=1; i<=100;i++){

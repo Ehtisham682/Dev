@@ -2,7 +2,12 @@
     color: green;
     display: flex;
     flex-wrap: wrap;
+
     gap: 8px;
+}
+
+h1{
+    background-color: cadetblue;
 }
 
 .card {
@@ -17,5 +22,13 @@
 }
 
 .addCard{
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
     cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right:20px;
 }

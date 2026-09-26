@@ -1,0 +1,37 @@
+.container {
+	color: green;
+	display: flex;
+	flex-wrap: wrap;
+
+	gap: 8px;
+}
+
+h1 {
+	background-color: cadetblue;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 120px;
+	background-color: pink;
+	border-radius: 4px;
+	font-size: 36px;
+}
+
+.addCard {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: cornflowerblue;
+	cursor: pointer;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
