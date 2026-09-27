@@ -1,0 +1,323 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f0eb;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+}
+
+.main-content{
+    overflow-x: hidden ;
+}
+
+.nav-header {
+	background-color: #ffff;
+	padding: 4px 24px;
+	position: sticky;
+	top: 0;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1290px;
+	margin: 0 auto;
+}
+
+main{
+    padding: 0 24px;
+}
+
+.icon img {
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navigation-links {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration-line: none;
+	color: #492118;
+}
+
+nav a + a {
+	margin-left: 60px;
+}
+
+.menu-close-icon {
+	position: absolute;
+	right: 16px;
+	top: 8px;
+	display: none;
+	cursor: pointer;
+}
+
+.hero-section {
+	margin-top: 100px;
+	padding: 0 24px;
+}
+
+.img-container {
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.hero-section img {
+	width: 100%;
+}
+
+.hero-section p {
+	font-size: 24px;
+	text-align: center;
+	color: #492118;
+}
+
+.section {
+	margin-top: 100px;
+	padding: 0 24px;
+}
+
+.section h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: #492118;
+	text-align: center;
+}
+
+.section .img-container {
+	max-width: 960px;
+	margin-inline: auto;
+}
+
+.section img {
+	width: 100%;
+}
+
+.move-to-top {
+    text-align: right;
+    max-width: 960px;
+    margin: 80px auto 0;
+    margin-top: 80px;
+    padding-right: 54px;
+}
+.move-to-top a {
+    color: #492118;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+    font-size: 32px;
+    /* padding-inline: 24px; */
+}
+
+
+footer > p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #858585;
+	text-align: center;
+	margin-top: 60px;
+}
+
+footer img {
+	max-width: 30px;
+	vertical-align: middle;
+}
+
+.burger-container {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
+	display: none;
+}
+.burger-menu {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: absolute;
+	right: -139px;
+	top: -136px;
+}
+.menu-icon {
+	position: absolute;
+	font-size: 22px;
+	cursor: pointer;
+	bottom: 25px;
+	left: 30px;
+}
+
+
+@media (max-width: 1200px) {
+	.navigation-links {
+		font-size: 16px;
+	}
+	nav a + a {
+		margin-left: 48px;
+	}
+	footer > p {
+		font-size: 22px;
+	}
+	section h2 {
+		font-size: 32px;
+	}
+	footer img {
+		max-width: 28px;
+		vertical-align: middle;
+	}
+	.move-to-top a {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 980px) {
+	.navigation-links {
+		font-size: 14px;
+	}
+	nav a + a {
+		margin-left: 32px;
+	}
+	.hero-section p {
+		font-size: 18px;
+	}
+	.section h2 {
+		font-size: 24px;
+	}
+	footer > p {
+		margin-top: 56px;
+		font-size: 18px;
+	}
+	footer img {
+		max-width: 25px;
+		vertical-align: middle;
+	}
+	.hero-section {
+		margin-top: 72px;
+	}
+	.section {
+		margin-top: 72px;
+	}
+	.move-to-top a {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 840px) {
+	.navigation-links {
+		font-size: 13px;
+	}
+	nav a + a {
+		margin-left: 20px;
+	}
+	.hero-section p {
+		font-size: 14px;
+	}
+	.section h2 {
+		font-size: 18px;
+	}
+	footer > p {
+		margin-top: 48px;
+		font-size: 14px;
+	}
+
+	footer img {
+		max-width: 20px;
+		vertical-align: middle;
+	}
+
+	.hero-section {
+		margin-top: 56px;
+	}
+	.section {
+		margin-top: 56px;
+	}
+	.move-to-top {
+		margin-top: 52px;
+	}
+	.move-to-top a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.icon {
+		max-width: 30px;
+	}
+
+	.nav-header {
+		background-color: #f6f0ebb8;
+		padding: 0px 24px;
+		position: sticky;
+		top: 0;
+		backdrop-filter: blur(7px);
+		max-height: 60px;
+	}
+
+	nav {
+		background-color: #ffffffb7;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		padding: 24px;
+		top: 4px;
+		right: -190px;
+        transition: right 0.3s ease-in-out ;
+	}
+	nav a + a {
+		margin: 0;
+		margin-top: 20px;
+	}
+	.hero-section {
+		margin-top: 40px;
+	}
+	.section {
+		margin-top: 40px;
+	}
+	.section h2 {
+		font-size: 14px;
+	}
+	.move-to-top a {
+		font-size: 12px;
+	}
+	.move-to-top {
+		margin-top: 32px;
+	}
+	footer > p {
+		margin-top: 36px;
+		font-size: 10px;
+	}
+
+	.burger-container,
+	.menu-close-icon {
+		display: block;
+	}
+
+	.menu-opened nav {
+		display: flex;
+		right: 24px;
+		top: 4px;
+	}
+
+	.menu-opened .burger-menu {
+		display: none;
+	}
+}

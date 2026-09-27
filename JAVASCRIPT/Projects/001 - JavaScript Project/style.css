@@ -74,10 +74,11 @@ h1 > span {
 	border-radius: 15px;
 	background-color: #48a300;
 	overflow: hidden;
+	transition:width 0.25s ease-in-out;	
 }
 
 .myBar span{
-
+	min-width: max-content;
 	padding-left: 16px;
 }
 
