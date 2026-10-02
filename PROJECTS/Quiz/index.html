@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz App</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main class="home">
+			<div class="quiz-img-container">
+				<img src="/media/home-img.svg" alt="Quiz Time Image" />
+			</div>
+			<div class="start-btn-container">
+				<button id="start-btn" class="start-btn">Start Now >>></button>
+			</div>
+		</main>
+
+		<section class="quiz-page">
+			<div class="quiz-page-content">
+                <header class="quiz-page-header">
+				<img  class="logo-img" src="/media/home-img.svg" alt="logo" />
+                <img class="volume-up" src="/media/volume-up.svg" alt="Volume">
+			</header>
+            <div class="question-div">
+                <p>Inside which HTML element do we put the JavaScript? </p>
+            </div>
+
+            <div class="options-container">
+                <div id ="first" class="options"> <!--give class on event to determine answers-->
+                    <p class="answer">JS Tag</p>
+                    <img class="correct-answer" src="/media/correct-icon.svg" alt="correct">
+                    <div class="wrong-answer">You chose
+                    <img src="/media/wrong-icon.svg" alt="wrong">
+                    </div>
+                </div>
+                <div id ="second" class="options">
+                    <p class="answer">scripting Tag</p>
+                    <img class="correct-answer" src="/media/correct-icon.svg" alt="correct">
+                    <div class="wrong-answer">You chose
+                    <img src="/media/wrong-icon.svg" alt="wrong">
+                    </div>
+                </div>
+                <div id ="third" class="options">
+                    <p class="answer">javascript Tag</p>
+                    <img class="correct-answer" src="/media/correct-icon.svg" alt="correct">
+                    <div class="wrong-answer">You chose
+                    <img src="/media/wrong-icon.svg" alt="wrong">
+                    </div>
+                </div>
+                <div id ="forth" class="options"> 
+                    <p class="answer">script Tag</p>
+                    <img class="correct-answer" src="/media/correct-icon.svg" alt="correct">
+                    <div class="wrong-answer">You chose
+                    <img src="/media/wrong-icon.svg" alt="wrong">
+                    </div>
+                </div>
+            </div>
+            </div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,159 @@
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* #35BD3A */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 24px;
+}
+
+.quiz-img-container {
+	margin-inline: auto;
+	max-width: 860px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.start-btn {
+	margin-top: 54px;
+	width: 450px;
+	margin-inline: auto;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 53px;
+	color: white;
+	background-color: #35bd3a;
+	border: none;
+	border-radius: 10px;
+    cursor: pointer;
+	box-shadow: 8px 8px 0px 7px rgba(1, 171, 8, 1);
+}
+
+.start-btn-container {
+	display: flex;
+	align-items: center;
+}
+
+.quiz-start {
+	display: none;
+}
+
+/* Quiz starts */
+
+.quiz-page.start {
+	display: block;
+}
+
+.quiz-page {
+    overflow-y: auto;
+	position: fixed;
+	inset: 0;
+	padding: 50px;
+	background-color: #cce2c2;
+	display: none;
+}
+
+.quiz-page-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quiz-page-header {
+	display: flex;
+	width: 100%;
+	max-width: 1030px;
+}
+
+.logo-img {
+	max-width: 222px;
+}
+.volume-up {
+	max-width: 32px;
+	margin-left: auto;
+	top: 10px;
+}
+
+.question-div {
+	max-width: 1030px;
+	width: 100%;
+	margin-top: 48px;
+	background-color: #f5f5f5;
+	border-radius: 13px;
+	padding: 12px;
+	box-shadow: -6px -6px 0px 0px rgba(245, 245, 245, 0.478);
+}
+
+.options-container {
+	/* min-width: 350px; */
+	max-width: 1030px;
+	width: 100%;
+	padding: 0 16px;
+	margin-top: 7rem;
+	border-radius: 12px;
+	background-color: #f5f5f5;
+	box-shadow: 6px 6px 0px 0px rgba(245, 245, 245, 0.478);
+}
+
+.options {
+	/* margin:16px; */
+	border: 3px solid #d9d9d9;
+	border-radius: 8px;
+	padding: 16px;
+	display: flex;
+	margin-block: 24px;
+	min-width: 350px;
+	max-width: 1030px;
+}
+
+.options p {
+	flex-grow: 1;
+	margin: 0;
+}
+/* correct answer css */
+.correct-answer {
+	display: none;
+}
+
+.options-container .correct {
+	border: 3px solid #35bd3a;
+}
+
+.correct .correct-answer {
+	display: block;
+}
+
+/* wrong answer CSS */
+
+.wrong-answer {
+	display: none;
+}
+.wrong-answer img {
+	vertical-align: middle;
+}
+
+.options-container .wrong {
+	border: 3px solid #ff7a7a;
+}
+.wrong .wrong-answer {
+	display: block;
+}
