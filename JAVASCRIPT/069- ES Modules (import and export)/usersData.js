@@ -1859,5 +1859,10 @@ const usersData = [
       'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11',
   },
 ]
+const myName="Ehtisham"
+// export {usersData,myName as name}  //we can change the name while exporting
 
-export {usersData}
+export default function randomUser(){
+    console.log(usersData[Math.floor(Math.random() * 20)])
+}
+export {usersData,myName}
