@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Country</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,regular,500,600,700,800,900"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="country.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="country.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-content">
+				<h2 class="title"><a href="/">Where in the world?</a></h2>
+				<p class="theme-mode"><i class="fa-regular fa-moon"></i>Dark Mode</p>
+			</div>
+		</header>
+		<main>
+			<div class="country-container">
+				<span class="previous-page-btn" onclick="history.back()">
+				<span><i class="fa-solid fa-arrow-left-long"></i>&nbsp;&nbsp;Back</span>
+			</span>
+			<div class="country-info">
+				<img class="country-flag" src="" alt="" />
+				<div class="details-container">
+					<h1 class="country-title"></h1>
+					<div class="details-text">
+						<p><b>Native Name: </b><span class="native-name"></span></p>
+						<p><b>Population: </b><span class="population"></span></p>
+						<p><b>Region: </b><span class="region"></span></p>
+						<p><b>Sub Region: </b><span class="sub-region"></span></p>
+						<p><b>Capital: </b><span class="capital"></span></p>
+						<p><b>Top Level Domain: </b><span class="tld"></span></p>
+						<p><b>Currencies: </b><span class="currencies"></span></p>
+						<p><b>Language: </b><span class="languages"></span></p>
+					</div>
+					<div class="border">
+						<b>Border Countries: </b>
+					</div>
+				</div>
+			</div>
+			</div>
+		</main>
+	</body>
+</html>

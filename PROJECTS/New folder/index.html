@@ -1,26 +1,53 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Blog Post Card</title>
+		<title>Rest Country API</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,regular,500,600,700,800,900"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+		/>
+		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<div class="blog-post-card">
-			<img
-				src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg"
-				alt="work"
-				class="post-img"
-			/>
-			<div class="post-content">
-				<h2 class="post-title">Learn Web Development in 2024</h2>
-				<p class="post-excerpt">
-					Stay ahead if the curve with the latest trends in web development.
-					Discover what's new and exciting in 2024
-				</p>
-				<a href="" class="read-more"> Read More</a>
+		<header class="header">
+			<div class="header-content">
+				<h2 class="title"><a href="/">Where in the world?</a></h2>
+				<p class="theme-mode"><i class="fa-regular fa-moon"></i>Dark Mode</p>
 			</div>
-		</div>
+		</header>
+		<main class="home-page-content">
+			<div class="home-page-content-contain">
+				<div class="search-filter">
+				<div class="search-box">
+					<p>
+						<i class="fa-solid fa-magnifying-glass"></i>
+						<input
+							class="search-bar"
+							type="text"
+							placeholder="Search for a country...."
+						/>
+					</p>
+				</div>
+				<select class="region-dropbox">
+					<option value="" hidden>Filter by Region</option>
+					<option value="Africa">Africa</option>
+					<option value="America">America</option>
+					<option value="Asia">Asia</option>
+					<option value="Europe">Europe</option>
+					<option value="Oceania">Oceania</option>
+				</select>
+			</div>
+
+			<div class="countries-container">
+			</div>
+			</div>
+		</main>
 	</body>
 </html>
